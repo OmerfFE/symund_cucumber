@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
             },
             features = "src/test/resources/features", // feature path content
             glue = "com/symund/step_definitions", // step def. path source
-            dryRun = false,
+            dryRun = true,
             tags = "",
             publish = false
 
